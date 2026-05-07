@@ -1,0 +1,132 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+jobs:
+  python-quality:
+    name: Python quality checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruff pytest nbformat
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
+
+      - name: Ruff critical checks
+        run: |
+          ruff check . --select=E9,F63,F7,F82
+
+      - name: Python syntax compile
+        run: |
+          python -m compileall .
+
+  notebook-validation:
+    name: Notebook validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Validate notebooks
+        run: |
+          python -m pip install --upgrade pip
+          pip install nbformat
+          python - <<'PY'
+          import pathlib
+          import sys
+          import nbformat
+
+          notebook_dir = pathlib.Path("notebooks")
+          if not notebook_dir.exists():
+              print("No notebooks directory. Skipping.")
+              sys.exit(0)
+
+          failed = []
+          for path in notebook_dir.glob("**/*.ipynb"):
+              try:
+                  nbformat.read(path, as_version=4)
+                  print(f"OK: {path}")
+              except Exception as exc:
+                  print(f"FAIL: {path}: {exc}")
+                  failed.append(path)
+
+          if failed:
+              sys.exit(1)
+          PY
+
+  airflow-dag-check:
+    name: Airflow DAG parse check
+    runs-on: ubuntu-latest
+
+    env:
+      AIRFLOW_HOME: ${{ github.workspace }}/.airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__UNIT_TEST_MODE: "True"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Check DAG directory
+        id: dag-dir
+        run: |
+          if [ -d dags ]; then echo "exists=true" >> "$GITHUB_OUTPUT"; else echo "exists=false" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Set up Python
+        if: steps.dag-dir.outputs.exists == 'true'
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install Airflow dependencies
+        if: steps.dag-dir.outputs.exists == 'true'
+        run: |
+          python -m pip install --upgrade pip
+          pip install apache-airflow google-cloud-storage pandas pyarrow
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Parse Airflow DAGs
+        if: steps.dag-dir.outputs.exists == 'true'
+        run: |
+          python - <<'PY'
+          import sys
+
+          try:
+              from airflow.models import DagBag
+          except ImportError:
+              from airflow.models.dagbag import DagBag
+
+          dag_bag = DagBag(dag_folder="dags", include_examples=False)
+
+          if dag_bag.import_errors:
+              for path, error in dag_bag.import_errors.items():
+                  print(f"FAIL: {path}")
+                  print(error)
+              sys.exit(1)
+
+          print(f"Parsed {len(dag_bag.dags)} DAG(s).")
+          PY
