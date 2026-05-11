@@ -1,0 +1,5 @@
+﻿criterion,group,session_day_count,ratio_pct
+click_attendance 기준,click_attendance 0~1회,623139,96.63
+click_attendance 기준,click_attendance 2회 이상,21743,3.37
+전체 로그 기준,전체 로그 1회,7356,1.14
+전체 로그 기준,전체 로그 2회 이상,637526,98.86
