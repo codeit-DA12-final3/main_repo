@@ -1,7 +1,0 @@
-﻿role,metric,mean,median,max
-chosen_user_id 기준,has_read_sum,43.81764553351484,6.0,912.0
-chosen_user_id 기준,opened_times_sum,4.99818488266563,0.0,101.0
-chosen_user_id 기준,record_count,78.92895112148321,15.0,1239.0
-user_id 기준,has_read_sum,139.39595792947,101.0,1172.0
-user_id 기준,opened_times_sum,15.90059806145597,10.0,174.0
-user_id 기준,record_count,251.09465869251392,190.0,2786.0

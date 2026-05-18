@@ -1,6 +1,0 @@
-﻿event_key,count,mean,median,p75,p90,max
-click_appbar_alarm_center,140284,1.8073408229021128,1.0,2.0,3.0,3674
-click_bottom_navigation_timeline,150463,3.5626765384180827,2.0,4.0,7.0,925
-click_notice,1,1.0,1.0,1.0,1.0,1
-click_notice_detail,95541,2.4006238159533604,1.0,2.0,4.0,1492
-view_timeline_tap,166495,7.174437670800925,4.0,8.0,14.0,817
