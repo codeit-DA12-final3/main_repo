@@ -1,0 +1,6 @@
+﻿included_action,source,date_column,rule
+보낸 투표,accounts_userquestionrecord_raw,created_at,user_id 기준 투표 기록 발생일
+받은 투표 열람,accounts_userquestionrecord_raw,answer_updated_at or created_at,chosen_user_id 기준 has_read > 0 또는 opened_times > 0인 날
+포인트 사용,accounts_pointhistory_raw,created_at,delta_point < 0인 포인트 사용일
+친구 요청,accounts_friendrequest_raw,created_at,send_user_id 기준 친구 요청 발생일
+친구 수락,accounts_friendrequest_raw,updated_at,receive_user_id 기준 accepted status가 된 날

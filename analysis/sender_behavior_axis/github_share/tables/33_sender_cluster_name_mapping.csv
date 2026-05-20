@@ -1,0 +1,4 @@
+﻿sender_cluster,user_count,sent_vote_count_d0_7,sent_vote_active_days_d0_7,sent_vote_distinct_chosen_users_d0_7,sent_vote_distinct_questions_d0_7,hackle_question_start_count_d0_7,hackle_question_complete_count_d0_7,hackle_question_skip_count_d0_7,sender_cluster_label,cluster_profile_summary,custom_name_applied,label_rule,cluster_order
+0,643381,0.0,0.0,0.0,0.0,0.0,0.0,0.0,발신 비활성형,"D0-D7 평균 보낸 투표 0.00회, 발신 활동일 0.00일, 선택 유저 0.00명",False,Votes와 Hackle 모두 초기 발신 행동이 거의 없는 군집,1
+1,115,0.0,0.0,0.0,0.0,3.5,1.28,3.0,Hackle 질문 반응형,"D0-D7 평균 보낸 투표 0.00회, 발신 활동일 0.00일, 선택 유저 0.00명",False,Votes 발신은 낮지만 Hackle 질문 시작/완료/스킵 행동이 관찰되는 군집,2
+2,4571,196.19,6.01,34.69,160.9,0.0,0.0,0.0,고강도 투표 발신형,"D0-D7 평균 보낸 투표 196.19회, 발신 활동일 6.01일, 선택 유저 34.69명",False,Votes 기준 D0-D7 평균 보낸 투표 수가 가장 높은 군집,3

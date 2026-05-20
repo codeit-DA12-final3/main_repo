@@ -1,0 +1,22 @@
+﻿column,label,missing_count,missing_rate_pct,zero_count,nunique
+sender_group,sender_group,0,0.0,,2
+sent_vote_count_d0_7,"보낸 투표 수
+D0-D7",0,0.0,643306.0,641
+sent_vote_count_d0_7_w,sent_vote_count_d0_7_w,0,0.0,643306.0,641
+active_days_d0_28,"활동일수
+D0-D28",0,0.0,13121.0,30
+active_days_d0_28_w,active_days_d0_28_w,0,0.0,13121.0,17
+retention_d1_28,"재방문 여부
+D1-D28",0,0.0,354298.0,2
+retention_d8_28,"재방문 여부
+D8-D28",0,0.0,378806.0,2
+paid_flag_d0_28,"결제 여부
+D0-D28",0,0.0,593056.0,2
+paid_flag_d8_28,"결제 여부
+D8-D28",0,0.0,631857.0,2
+payment_amount_d0_28,"추정 구매 하트 수
+D0-D28",0,0.0,593056.0,187
+payment_amount_d8_28,"추정 구매 하트 수
+D8-D28",0,0.0,631857.0,142
+active_days_d8_28,"활동일수
+D8-D28",0,0.0,262546.0,22

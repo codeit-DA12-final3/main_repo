@@ -1,0 +1,25 @@
+﻿feature,feature_label,role
+sent_vote_count_d0,"보낸 투표 수
+D0",발신 단독 클러스터링 입력 변수
+sent_vote_count_d0_3,"보낸 투표 수
+D0-D3",발신 단독 클러스터링 입력 변수
+sent_vote_count_d0_7,"보낸 투표 수
+D0-D7",발신 단독 클러스터링 입력 변수
+sent_vote_complete_count_d0_7,"완료된 보낸 투표 수
+D0-D7",발신 단독 클러스터링 입력 변수
+sent_vote_active_days_d0_7,"보낸 투표 활동일수
+D0-D7",발신 단독 클러스터링 입력 변수
+sent_vote_distinct_chosen_users_d0_7,"선택한 고유 유저 수
+D0-D7",발신 단독 클러스터링 입력 변수
+sent_vote_distinct_questions_d0_7,"투표한 고유 질문 수
+D0-D7",발신 단독 클러스터링 입력 변수
+hackle_question_start_count_d0_7,"Hackle 질문 시작 수
+D0-D7",발신 단독 클러스터링 입력 변수
+hackle_question_complete_count_d0_7,"Hackle 질문 완료 수
+D0-D7",발신 단독 클러스터링 입력 변수
+hackle_question_skip_count_d0_7,"Hackle 질문 스킵 수
+D0-D7",발신 단독 클러스터링 입력 변수
+hackle_question_completion_rate_d0_7,"Hackle 질문 완료율
+D0-D7",발신 단독 클러스터링 입력 변수
+hackle_question_skip_rate_d0_7,"Hackle 질문 스킵률
+D0-D7",발신 단독 클러스터링 입력 변수

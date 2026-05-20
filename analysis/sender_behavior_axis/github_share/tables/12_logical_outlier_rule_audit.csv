@@ -1,0 +1,15 @@
+﻿column,label,min_allowed,max_allowed,invalid_user_count,max_observed,min_observed,action,reason
+active_days_d0_28,"활동일수
+D0-D28",0,29,0,29.0,0.0,no invalid rows,D0-D28 활동일수는 최대 29일을 넘을 수 없음
+active_days_d8_28,"활동일수
+D8-D28",0,21,0,21.0,0.0,no invalid rows,D8-D28 활동일수는 최대 21일을 넘을 수 없음
+payment_active_days_d0_28,payment_active_days_d0_28,0,29,0,13.0,0.0,no invalid rows,D0-D28 결제 발생일수는 최대 29일을 넘을 수 없음
+payment_active_days_d8_28,payment_active_days_d8_28,0,21,0,9.0,0.0,no invalid rows,D8-D28 결제 발생일수는 최대 21일을 넘을 수 없음
+sent_vote_active_days_d0,sent_vote_active_days_d0,0,1,0,1.0,0.0,no invalid rows,D0 발신 활동일수는 최대 1일
+sent_vote_active_days_d0_1,sent_vote_active_days_d0_1,0,2,0,2.0,0.0,no invalid rows,D0-D1 발신 활동일수는 최대 2일
+sent_vote_active_days_d0_3,sent_vote_active_days_d0_3,0,4,0,4.0,0.0,no invalid rows,D0-D3 발신 활동일수는 최대 4일
+sent_vote_active_days_d0_7,"보낸 투표 활동일수
+D0-D7",0,8,0,8.0,0.0,no invalid rows,D0-D7 발신 활동일수는 최대 8일
+sent_vote_active_days_d0_14,sent_vote_active_days_d0_14,0,15,0,15.0,0.0,no invalid rows,D0-D14 발신 활동일수는 최대 15일
+sent_vote_active_days_d0_28,sent_vote_active_days_d0_28,0,29,0,29.0,0.0,no invalid rows,D0-D28 발신 활동일수는 최대 29일
+hackle_question_active_days_d0_7,hackle_question_active_days_d0_7,0,8,796,96.0,0.0,invalid rows removed from analysis_df,D0-D7 Hackle 활동일수는 최대 8일

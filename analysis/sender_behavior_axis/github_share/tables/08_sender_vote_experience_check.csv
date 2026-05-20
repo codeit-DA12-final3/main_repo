@@ -1,0 +1,7 @@
+﻿window,metric,experienced_user_count,total_user_count,rate_pct,sent_vote_count_sum
+D0,sent_vote_experience_d0,3893,677085,0.57,112744
+D0-D1,sent_vote_experience_d0_1,4376,677085,0.65,298542
+D0-D3,sent_vote_experience_d0_3,4636,677085,0.68,584645
+D0-D7,sent_vote_experience_d0_7,4765,677085,0.7,898412
+D0-D14,sent_vote_experience_d0_14,4826,677085,0.71,1081264
+D0-D28,sent_vote_experience_d0_28,4845,677085,0.72,1180058
