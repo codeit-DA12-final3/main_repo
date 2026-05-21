@@ -1,0 +1,28 @@
+﻿axis,feature,feature_label,use_in_clustering,source_note
+sender_behavior,sent_vote_count_d0_7,D0-D7 보낸 투표 수,True,Final_KimSuHyun.ipynb 발신 행동축: D0-D7 능동 투표 행동
+sender_behavior,sent_vote_active_days_d0_7,D0-D7 발신 활동일수,True,Final_KimSuHyun.ipynb 발신 행동축: D0-D7 능동 투표 행동
+sender_behavior,sent_vote_distinct_chosen_users_d0_7,D0-D7 선택한 유저 수,True,Final_KimSuHyun.ipynb 발신 행동축: D0-D7 능동 투표 행동
+sender_behavior,sent_vote_distinct_questions_d0_7,D0-D7 발신 질문 수,True,Final_KimSuHyun.ipynb 발신 행동축: D0-D7 능동 투표 행동
+sender_behavior,sent_vote_complete_rate_d0_7,D0-D7 발신 완료율,True,Final_KimSuHyun.ipynb 발신 행동축: D0-D7 능동 투표 행동
+sender_behavior,hackle_question_start_count_d0_7,D0-D7 Hackle 질문 시작,True,Final_KimSuHyun.ipynb 발신 행동축: D0-D7 능동 투표 행동
+sender_behavior,hackle_question_completion_rate_d0_7,D0-D7 Hackle 완료율,True,Final_KimSuHyun.ipynb 발신 행동축: D0-D7 능동 투표 행동
+receiver_reaction,received_vote_count_d0_7,D0-D7 받은 투표 수,True,수신_반응축.pdf: 수신 발생/강도/열람 반응
+receiver_reaction,received_vote_days_d0_7,D0-D7 수신 발생일수,True,수신_반응축.pdf: 수신 발생/강도/열람 반응
+receiver_reaction,received_vote_count_d0_3,D0-D3 받은 투표 수,True,수신_반응축.pdf: 수신 발생/강도/열람 반응
+receiver_reaction,received_vote_read_count_d0_7,D0-D7 받은 투표 열람 수,True,수신_반응축.pdf: 수신 발생/강도/열람 반응
+receiver_reaction,received_vote_read_rate_d0_7,D0-D7 수신 열람률,True,수신_반응축.pdf: 수신 발생/강도/열람 반응
+receiver_reaction,unread_received_vote_count_d0_7,D0-D7 미열람 수신 수,True,수신_반응축.pdf: 수신 발생/강도/열람 반응
+receiver_reaction,early_received_score_d0_7,초기 수신 빠름 점수,True,수신_반응축.pdf: 수신 발생/강도/열람 반응
+network_environment,friend_count,친구 수,True,"관계망_환경축.pdf: 친구 수, 같은 반/학년 활성도, 후보 노출"
+network_environment,same_class_active_d0_7,같은 반 활성 유저 수,True,"관계망_환경축.pdf: 친구 수, 같은 반/학년 활성도, 후보 노출"
+network_environment,same_grade_active_d0_7,같은 학년 활성 유저 수,True,"관계망_환경축.pdf: 친구 수, 같은 반/학년 활성도, 후보 노출"
+network_environment,candidate_exposure_count_d0_7,D0-D7 후보 노출 수,True,"관계망_환경축.pdf: 친구 수, 같은 반/학년 활성도, 후보 노출"
+network_environment,candidate_unique_question_count_d0_7,D0-D7 후보 노출 질문 수,True,"관계망_환경축.pdf: 친구 수, 같은 반/학년 활성도, 후보 노출"
+network_environment,candidate_to_recv_rate_d0_7,후보 노출 대비 선택률,True,"관계망_환경축.pdf: 친구 수, 같은 반/학년 활성도, 후보 노출"
+network_environment,pending_votes,미확인 Ping 수,True,"관계망_환경축.pdf: 친구 수, 같은 반/학년 활성도, 후보 노출"
+network_environment,same_school_joined_user_count,same_school_joined_user_count,False,프로파일 해석용 보조 변수
+network_environment,same_class_total_users,same_class_total_users,False,프로파일 해석용 보조 변수
+network_environment,same_grade_total_users,same_grade_total_users,False,프로파일 해석용 보조 변수
+network_environment,same_class_active_ratio_d0_7,same_class_active_ratio_d0_7,False,프로파일 해석용 보조 변수
+network_environment,same_grade_active_ratio_d0_7,same_grade_active_ratio_d0_7,False,프로파일 해석용 보조 변수
+network_environment,candidate_exposure_days_d0_7,candidate_exposure_days_d0_7,False,프로파일 해석용 보조 변수
