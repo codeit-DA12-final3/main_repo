@@ -1,0 +1,30 @@
+﻿table_name,stage,scope,dedup_key,row_count_before_dedup,full_row_duplicate_rows,key_duplicate_rows_removed_by_drop_duplicates,key_duplicate_rows_that_are_not_full_row_duplicates,duplicated_key_group_count,full_duplicate_share_among_key_duplicates_pct,note
+accounts_attendance_long,before_drop_duplicates_user_date,loaded_frame,"user_id, attendance_date",2222327,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_10_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_11_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_12_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_13_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_14_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_15_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_16_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_17_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_18_within_chunk,id,147175,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_1_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_2_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_3_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_4_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_5_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_6_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_7_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_8_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_friendrequest_raw,before_drop_duplicates_id,chunk_9_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_group_raw,before_drop_duplicates_group_id,loaded_frame,group_id,84515,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_paymenthistory_raw,before_drop_duplicates_id,loaded_frame,id,95140,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_pointhistory_raw,before_drop_duplicates_id,chunk_1_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_pointhistory_raw,before_drop_duplicates_id,chunk_2_within_chunk,id,1000000,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_pointhistory_raw,before_drop_duplicates_id,chunk_3_within_chunk,id,338918,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_user_master,before_drop_duplicates_id,loaded_frame,id,677085,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+accounts_userquestionrecord_raw,before_drop_duplicates_id,loaded_frame,id,1217558,0,0,0,0,,키 중복으로 제거될 행이 없습니다.
+derived_activity_days_long,before_drop_duplicates_user_activity_date,loaded_frame,"user_id, activity_date",5308229,1811939,1811939,0,84818,100.0,0이면 키 중복으로 제거될 행이 모두 전체 행 중복입니다.
+hackle_properties_raw,before_drop_duplicates_session_id,loaded_frame,session_id,334091,100423,100490,67,82032,99.93,0이면 키 중복으로 제거될 행이 모두 전체 행 중복입니다.
+user_properties_raw,before_drop_duplicates_user_id,loaded_frame,user_id,230819,0,1,1,1,0.0,0이면 키 중복으로 제거될 행이 모두 전체 행 중복입니다.

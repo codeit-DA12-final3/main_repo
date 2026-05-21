@@ -1,0 +1,6 @@
+﻿step,rule
+duplicate handling,"user, attendance-date, payment id, vote record id, and friend request id duplicates are removed before aggregation; duplicate_removal_audit.csv checks whether key duplicates are exact full-row duplicates."
+missing handling,rows missing required user_id/date keys are dropped; user-level missing metric values after merge are filled with 0.
+outlier handling,logically impossible bounded values are removed from analysis_df; isolated statistical extremes are audited and can be optionally excluded for sensitivity analysis; count-like variables are winsorized at p99 only for EDA distribution plots and clustering inputs.
+main population,home-entry users only: friend_count >= 4 and same_school_joined_user_count >= 40.
+supplementary source,Hackle is used only as a supplementary source when session_id can be mapped to user_id.

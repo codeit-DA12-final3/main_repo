@@ -1,0 +1,24 @@
+﻿feature,feature_label,transform,p99
+sent_vote_count_d0_7,D0-D7 보낸 투표 수,p99 winsorize -> log1p -> StandardScaler,0.0
+sent_vote_active_days_d0_7,D0-D7 발신 활동일수,p99 winsorize -> log1p -> StandardScaler,0.0
+sent_vote_distinct_chosen_users_d0_7,D0-D7 선택한 유저 수,p99 winsorize -> log1p -> StandardScaler,0.0
+sent_vote_distinct_questions_d0_7,D0-D7 발신 질문 수,p99 winsorize -> log1p -> StandardScaler,0.0
+hackle_question_start_count_d0_7,D0-D7 Hackle 질문 시작,p99 winsorize -> log1p -> StandardScaler,0.0
+received_vote_count_d0_7,D0-D7 받은 투표 수,p99 winsorize -> log1p -> StandardScaler,16.0
+received_vote_days_d0_7,D0-D7 수신 발생일수,p99 winsorize -> log1p -> StandardScaler,5.0
+received_vote_count_d0_3,D0-D3 받은 투표 수,p99 winsorize -> log1p -> StandardScaler,9.0
+received_vote_read_count_d0_7,D0-D7 받은 투표 열람 수,p99 winsorize -> log1p -> StandardScaler,7.0
+unread_received_vote_count_d0_7,D0-D7 미열람 수신 수,p99 winsorize -> log1p -> StandardScaler,1.0
+friend_count,친구 수,p99 winsorize -> log1p -> StandardScaler,153.0
+same_class_active_d0_7,같은 반 활성 유저 수,p99 winsorize -> log1p -> StandardScaler,26.0
+same_grade_active_d0_7,같은 학년 활성 유저 수,p99 winsorize -> log1p -> StandardScaler,223.0
+candidate_exposure_count_d0_7,D0-D7 후보 노출 수,p99 winsorize -> log1p -> StandardScaler,60.0
+candidate_unique_question_count_d0_7,D0-D7 후보 노출 질문 수,p99 winsorize -> log1p -> StandardScaler,57.0
+pending_votes,미확인 Ping 수,p99 winsorize -> log1p -> StandardScaler,549.0
+sent_vote_complete_rate_d0_7,D0-D7 발신 완료율,clip 0-1 -> StandardScaler,0.0
+hackle_question_completion_rate_d0_7,D0-D7 Hackle 완료율,clip 0-1 -> StandardScaler,0.0
+received_vote_read_rate_d0_7,D0-D7 수신 열람률,clip 0-1 -> StandardScaler,0.7142857142857143
+candidate_to_recv_rate_d0_7,후보 노출 대비 선택률,clip 0-1 -> StandardScaler,0.25805959123368744
+sent_vote_complete_rate_d0_7,D0-D7 발신 완료율,clip 0-1 -> StandardScaler,0.0
+received_vote_read_rate_d0_7,D0-D7 수신 열람률,clip 0-1 -> StandardScaler,0.7142857142857143
+early_received_score_d0_7,초기 수신 빠름 점수,"clip 0-8 -> StandardScaler; 0 means no D0-D7 receipt, 8 means D0 receipt",8.0

@@ -1,0 +1,8 @@
+﻿source,window,definition,event_count,user_count,total_value,note
+purchase_history_productId_numeric,D0-28,accounts_paymenthistory_raw.productId에서 숫자를 추출한 하트 수 후보,88417,55922,71044998.0,heart.777 -> 777처럼 해석한 추정값이므로 point 관련 컬럼과 비교 필요
+purchase_history_productId_numeric,D8-28,accounts_paymenthistory_raw.productId에서 숫자를 추출한 하트 수 후보,24129,16578,18937458.0,heart.777 -> 777처럼 해석한 추정값이므로 point 관련 컬럼과 비교 필요
+point_history_negative_delta_abs,D0-28,포인트 기록 테이블의 음수 delta_point 절댓값 합계,104356,8764,19866010.0,소비 포인트 후보. 결제 구매량과는 방향이 다름
+point_history_negative_delta_abs,D8-28,포인트 기록 테이블의 음수 delta_point 절댓값 합계,34630,4976,5194080.0,소비 포인트 후보. 결제 구매량과는 방향이 다름
+point_history_positive_delta,D0-28,포인트 기록 테이블의 양수 delta_point 합계,2159363,12930,21575224.0,"구매 지급, 보상 지급 등이 섞일 수 있어 구매 하트 수로 확정 불가"
+point_history_positive_delta,D8-28,포인트 기록 테이블의 양수 delta_point 합계,539361,10247,5391192.0,"구매 지급, 보상 지급 등이 섞일 수 있어 구매 하트 수로 확정 불가"
+accounts_user_master.point,snapshot,유저 테이블의 현재 보유 포인트/하트 후보 컬럼,677085,676887,2057759382.0,현재 잔액 성격일 수 있어 기간 내 구매량과 직접 비교 시 주의

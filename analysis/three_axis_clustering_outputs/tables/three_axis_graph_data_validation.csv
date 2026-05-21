@@ -1,0 +1,40 @@
+﻿figure_key,status,row_count,required_columns,value_columns,missing_columns,numeric_abs_sum,non_null_value_counts,message
+three_axis_cluster_k_selection,ok,7,"k, inertia, elbow_score, silhouette_score, auto_k_score, min_cluster_share_pct","inertia, elbow_score, silhouette_score, auto_k_score, min_cluster_share_pct",,24203352.800502524,"{'inertia': 7, 'elbow_score': 7, 'silhouette_score': 7, 'auto_k_score': 7, 'min_cluster_share_pct': 7}",
+three_axis_cluster_pca_2d,ok,50000,"PC1, PC2, cluster_label","PC1, PC2",,93529.17793809858,"{'PC1': 50000, 'PC2': 50000}",
+three_axis_cluster_profile_heatmap,ok,3,cluster_label,"D0-D7 발신 완료율, D0-D7 Hackle 완료율, D0-D7 받은 투표 수, D0-D7 수신 발생일수, D0-D3 받은 투표 수, D0-D7 받은 투표 열람 수, D0-D7 수신 열람률, D0-D7 미열람 수신 수, 초기 수신 빠름 점수, 친구 수, 같은 반 활성 유저 수, 같은 학년 활성 유저 수, D0-D7 후보 노출 수, D0-D7 후보 노출 질문 수, 후보 노출 대비 선택률, 미확인 Ping 수",,77.88487120481722,"{'D0-D7 발신 완료율': 3, 'D0-D7 Hackle 완료율': 3, 'D0-D7 받은 투표 수': 3, 'D0-D7 수신 발생일수': 3, 'D0-D3 받은 투표 수': 3, 'D0-D7 받은 투표 열람 수': 3, 'D0-D7 수신 열람률': 3, 'D0-D7 미열람 수신 수': 3, '초기 수신 빠름 점수': 3, '친구 수': 3, '같은 반 활성 유저 수': 3, '같은 학년 활성 유저 수': 3, 'D0-D7 후보 노출 수': 3, 'D0-D7 후보 노출 질문 수': 3, '후보 노출 대비 선택률': 3, '미확인 Ping 수': 3}",
+three_axis_cluster_axis_scores,ok,9,"cluster_label, axis_label",mean_axis_score,,12.556999999999999,{'mean_axis_score': 9},
+three_axis_cluster_outcome_rates,ok,9,"cluster_label, metric_label",rate_pct,,187.66613793307917,{'rate_pct': 9},
+three_axis_cluster_outcome_heatmap,ok,3,cluster_label,"재방문율
+D1-D28, 재방문율
+D8-D28, 결제율
+D0-D28, 결제율
+D8-D28, 결제자 평균
+결제 빈도
+D0-D28, 결제자 평균
+구매 하트
+D0-D28, 평균 활동일수
+D0-D28, 평균 활동일수
+D8-D28",,4100.274,"{'재방문율\nD1-D28': 3, '재방문율\nD8-D28': 3, '결제율\nD0-D28': 3, '결제율\nD8-D28': 3, '결제자 평균\n결제 빈도\nD0-D28': 3, '결제자 평균\n구매 하트\nD0-D28': 3, '평균 활동일수\nD0-D28': 3, '평균 활동일수\nD8-D28': 3}",
+three_axis_cluster_payment_count,ok,12,"cluster_label, metric_label",mean_count,,9.538,{'mean_count': 12},
+three_axis_cluster_payment_amount,ok,12,"cluster_label, metric_label",mean_amount,,7587.4310000000005,{'mean_amount': 12},
+three_axis_cluster_active_days,ok,12,"cluster_label, metric_label",mean_days,,62.44799999999999,{'mean_days': 12},
+three_axis_segment_cluster_heatmap,ok,50,"segment, cluster_label",cluster_share_within_segment_pct,,1900.01,{'cluster_share_within_segment_pct': 50},
+k4_three_axis_cluster_pca_2d,ok,50000,"PC1, PC2, cluster_label","PC1, PC2",,93529.17793809858,"{'PC1': 50000, 'PC2': 50000}",
+k4_three_axis_cluster_profile_heatmap,ok,4,cluster_label,"D0-D7 발신 완료율, D0-D7 Hackle 완료율, D0-D7 받은 투표 수, D0-D7 수신 발생일수, D0-D3 받은 투표 수, D0-D7 받은 투표 열람 수, D0-D7 수신 열람률, D0-D7 미열람 수신 수, 초기 수신 빠름 점수, 친구 수, 같은 반 활성 유저 수, 같은 학년 활성 유저 수, D0-D7 후보 노출 수, D0-D7 후보 노출 질문 수, 후보 노출 대비 선택률, 미확인 Ping 수",,155.33890024142755,"{'D0-D7 발신 완료율': 4, 'D0-D7 Hackle 완료율': 4, 'D0-D7 받은 투표 수': 4, 'D0-D7 수신 발생일수': 4, 'D0-D3 받은 투표 수': 4, 'D0-D7 받은 투표 열람 수': 4, 'D0-D7 수신 열람률': 4, 'D0-D7 미열람 수신 수': 4, '초기 수신 빠름 점수': 4, '친구 수': 4, '같은 반 활성 유저 수': 4, '같은 학년 활성 유저 수': 4, 'D0-D7 후보 노출 수': 4, 'D0-D7 후보 노출 질문 수': 4, '후보 노출 대비 선택률': 4, '미확인 Ping 수': 4}",
+k4_three_axis_cluster_axis_scores,ok,12,"cluster_label, axis_label",mean_axis_score,,26.299999999999997,{'mean_axis_score': 12},
+k4_three_axis_cluster_outcome_rates,ok,12,"cluster_label, metric_label",rate_pct,,268.6517260621213,{'rate_pct': 12},
+k4_three_axis_cluster_outcome_heatmap,ok,4,cluster_label,"재방문율
+D1-D28, 재방문율
+D8-D28, 결제율
+D0-D28, 결제율
+D8-D28, 결제자 평균
+결제 빈도
+D0-D28, 결제자 평균
+구매 하트
+D0-D28, 평균 활동일수
+D0-D28, 평균 활동일수
+D8-D28",,5440.045,"{'재방문율\nD1-D28': 4, '재방문율\nD8-D28': 4, '결제율\nD0-D28': 4, '결제율\nD8-D28': 4, '결제자 평균\n결제 빈도\nD0-D28': 4, '결제자 평균\n구매 하트\nD0-D28': 4, '평균 활동일수\nD0-D28': 4, '평균 활동일수\nD8-D28': 4}",
+k4_three_axis_cluster_payment_count,ok,16,"cluster_label, metric_label",mean_count,,12.635000000000002,{'mean_count': 16},
+k4_three_axis_cluster_payment_amount,ok,16,"cluster_label, metric_label",mean_amount,,10034.764000000001,{'mean_amount': 16},
+k4_three_axis_cluster_active_days,ok,16,"cluster_label, metric_label",mean_days,,98.007,{'mean_days': 16},
+k4_three_axis_segment_cluster_heatmap,ok,65,"segment, cluster_label",cluster_share_within_segment_pct,,1899.98,{'cluster_share_within_segment_pct': 65},

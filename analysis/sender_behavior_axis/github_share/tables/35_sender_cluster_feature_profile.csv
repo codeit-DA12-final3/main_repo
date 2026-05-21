@@ -1,0 +1,4 @@
+﻿sender_cluster_label,sent_vote_count_d0,sent_vote_count_d0_3,sent_vote_count_d0_7,sent_vote_complete_count_d0_7,sent_vote_active_days_d0_7,sent_vote_distinct_chosen_users_d0_7,sent_vote_distinct_questions_d0_7,hackle_question_start_count_d0_7,hackle_question_complete_count_d0_7,hackle_question_skip_count_d0_7,hackle_question_completion_rate_d0_7,hackle_question_skip_rate_d0_7
+발신 비활성형,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Hackle 질문 반응형,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.5,1.28,3.0,0.53,1.22
+고강도 투표 발신형,24.56,127.69,196.19,185.94,6.01,34.69,160.9,0.0,0.0,0.0,0.0,0.0

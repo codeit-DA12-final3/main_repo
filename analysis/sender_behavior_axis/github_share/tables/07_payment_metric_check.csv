@@ -1,0 +1,3 @@
+﻿metric,definition,paid_user_count,total_user_count,rate_pct,payment_count_sum,payment_amount_sum,payment_amount_source,payment_amount_source_note
+paid_flag_d0_28,D0-D28 기간 내 1회 이상 결제,55922,677085,8.26,88417,71044998.0,productId_numeric_heart_qty,productId 숫자 추출 기반 추정 하트 수
+paid_flag_d8_28,D8-D28 기간 내 1회 이상 결제,16578,677085,2.45,24129,18937458.0,productId_numeric_heart_qty,productId 숫자 추출 기반 추정 하트 수

@@ -1,0 +1,11 @@
+﻿figure_file,figure_key,interpretation
+three_axis_cluster_k_selection.png,three_axis_cluster_k_selection,"k 후보별 군집 내 제곱합, elbow score, 표본 실루엣 점수, 자동 k 선택 점수, 최소 군집 비율을 함께 본다. 선택된 k는 빨간 점선이며, elbow가 뚜렷하면서 실루엣 점수도 높은 후보인지 확인한다."
+three_axis_cluster_pca_2d.png,three_axis_cluster_pca_2d,"표준화된 3축 입력 변수를 PCA 2차원에 투영한 그림이다. 점들이 완전히 분리되지 않아도, 색상별 군집이 어느 방향으로 밀집하는지로 세그먼트 구분 가능성을 확인한다."
+three_axis_cluster_profile_heatmap.png,three_axis_cluster_profile_heatmap,"군집별 표준화 입력 변수 평균이다. 0보다 크면 전체 평균보다 높은 축/행동이고, 0보다 작으면 전체 평균보다 낮은 축/행동이다. 군집명 해석의 핵심 근거로 사용한다."
+three_axis_cluster_axis_scores.png,three_axis_cluster_axis_scores,"군집별 발신, 수신, 관계망 환경 축 점수 평균을 비교한다. 어떤 축이 군집명을 결정하는 핵심 특징인지 확인하는 그래프다."
+three_axis_cluster_outcome_rates.png,three_axis_cluster_outcome_rates,"재방문율, 결제율, 수신 이후 출석률은 클러스터링 입력에 넣지 않고 사후 검증으로만 비교한다. 따라서 이 그래프는 군집이 실제 가치 지표와 연결되는지 확인하는 용도다."
+three_axis_cluster_outcome_heatmap.png,three_axis_cluster_outcome_heatmap,"군집별 핵심 결과 지표를 한 화면에서 비교한다. 재방문, 결제, 활동일수 중 어느 성과가 특정 군집에서 두드러지는지 확인한다."
+three_axis_cluster_payment_count.png,three_axis_cluster_payment_count,군집별 결제 빈도 평균을 전체 유저 기준과 결제자 기준으로 분리해 본다. 결제율은 낮아도 결제자 평균 빈도가 높으면 소수 고가치 유저가 몰린 군집일 수 있다.
+three_axis_cluster_payment_amount.png,three_axis_cluster_payment_amount,군집별 추정 구매 하트 수 평균을 전체 유저 기준과 결제자 기준으로 비교한다. 결제율과 구매 규모를 함께 봐야 수익화 기여도를 과소/과대 해석하지 않는다.
+three_axis_cluster_active_days.png,three_axis_cluster_active_days,"군집별 누적 활동일수를 전체 유저 평균과 활동 유저 평균으로 나누어 본다. 전체 평균은 활동 진입률의 영향을, 활동 유저 평균은 진입 후 활동 강도의 영향을 함께 반영한다."
+three_axis_segment_cluster_heatmap.png,three_axis_segment_cluster_heatmap,각 강도/친구 수 구간 안에서 어떤 클러스터가 많이 나타나는지 보는 구성비 히트맵이다. 특정 구간이 특정 클러스터에 몰리면 해당 축의 강도가 군집 해석에 크게 기여한 것으로 볼 수 있다.

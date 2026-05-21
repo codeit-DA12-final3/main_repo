@@ -1,0 +1,8 @@
+﻿metric_group,metric,window,definition,used_in_clustering,role
+retention,retention_d1_28,D1-D28,가입 다음날부터 28일 이내 출석 기록이 1회 이상 있는지,False,군집 사후 검증 결과 지표
+retention,retention_d8_28,D8-D28,가입 8일부터 28일 이내 출석 기록이 1회 이상 있는지,False,군집 사후 검증 결과 지표
+payment,paid_flag/payment_count/payment_amount_d0_28,D0-D28,"가입일부터 28일 이내 결제 여부, 결제 횟수, 추정 구매 하트 수",False,군집 사후 검증 결과 지표
+payment,paid_flag/payment_count/payment_amount_d8_28,D8-D28,"가입 8일부터 28일 이내 결제 여부, 결제 횟수, 추정 구매 하트 수",False,군집 사후 검증 결과 지표
+active_days,active_days_d0_28,D0-D28,"가입일부터 28일 이내 발신, 수신 열람, 친구 요청/수락, 포인트 사용이 발생한 고유 날짜 수",False,군집 사후 검증 결과 지표
+active_days,active_days_d8_28,D8-D28,"가입 8일부터 28일 이내 발신, 수신 열람, 친구 요청/수락, 포인트 사용이 발생한 고유 날짜 수",False,군집 사후 검증 결과 지표
+clustering_input,sender/receiver/network features,D0-D7,"초기 행동/환경 관찰 기간. 발신, 수신, 후보 노출, 같은 반/학년 활성도는 이 기간으로 집계",True,클러스터링 입력 변수

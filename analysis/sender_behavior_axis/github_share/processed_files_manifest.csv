@@ -1,0 +1,17 @@
+﻿file_name,size_mb,github_share_included
+01_users_population.csv,40.4,False
+02_attendance_metrics.csv,17.47,False
+03_payment_metrics.csv,25.78,False
+04_sender_vote_metrics.csv,98.12,False
+05_receiver_vote_metrics.csv,46.45,False
+06_friend_request_metrics.csv,29.05,False
+07_point_metrics.csv,0.09,False
+08_active_day_metrics.csv,10.28,False
+09_hackle_question_metrics.csv,0.05,False
+10_sender_behavior_analysis_user_level.csv,276.61,False
+10_sender_behavior_analysis_user_level_statistical_extreme_excluded.csv,276.61,False
+11_sender_behavior_analysis_with_sender_clusters.csv,300.03,False
+12_active_day_excl_sent_vote_metrics.csv,10.28,False
+12_sender_behavior_analysis_with_excl_sent_vote.csv,300.03,False
+13_sender_behavior_analysis_with_additional_segments.csv,300.02,False
+duplicate_removal_audit.csv,0.0,False

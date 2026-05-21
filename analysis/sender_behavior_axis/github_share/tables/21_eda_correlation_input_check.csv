@@ -1,0 +1,25 @@
+﻿column,label,nunique,used_in_heatmap
+sent_vote_count_d0_7,"보낸 투표 수
+D0-D7",641,True
+sent_vote_active_days_d0_7,"보낸 투표 활동일수
+D0-D7",9,True
+sent_vote_distinct_chosen_users_d0_7,"선택한 고유 유저 수
+D0-D7",112,True
+hackle_question_start_count_d0_7,"Hackle 질문 시작 수
+D0-D7",19,True
+hackle_question_complete_count_d0_7,"Hackle 질문 완료 수
+D0-D7",6,True
+received_vote_read_count_d0_7,"받은 투표 열람 수
+D0-D7",425,True
+friend_count,친구 수,404,True
+same_school_joined_user_count,동일 학교 가입자 수,391,True
+retention_d1_28,"재방문 여부
+D1-D28",2,True
+retention_d8_28,"재방문 여부
+D8-D28",2,True
+paid_flag_d0_28,"결제 여부
+D0-D28",2,True
+paid_flag_d8_28,"결제 여부
+D8-D28",2,True
+active_days_d0_28,"활동일수
+D0-D28",30,True
