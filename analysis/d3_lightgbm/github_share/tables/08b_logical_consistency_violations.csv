@@ -1,0 +1,2 @@
+﻿check,severity,violations,rate,action,note
+returned_d4_28=0인데 active_days_d4_28>0,review,12805,0.019744683738121195,자동 보정하지 않음,"returned는 재방문/출석성 지표, active_days는 서비스 활동성 지표일 수 있어 정의 차이를 먼저 확인합니다."

@@ -1,0 +1,65 @@
+﻿actual,predicted,count,target_name,population,feature_set,model_type
+실제 0,예측 0,64897,returned,전체 유저,환경축 only,Baseline Logistic
+실제 0,예측 1,44001,returned,전체 유저,환경축 only,Baseline Logistic
+실제 1,예측 0,43219,returned,전체 유저,환경축 only,Baseline Logistic
+실제 1,예측 1,42442,returned,전체 유저,환경축 only,Baseline Logistic
+실제 0,예측 0,59514,returned,전체 유저,환경축 only,LightGBM
+실제 0,예측 1,49384,returned,전체 유저,환경축 only,LightGBM
+실제 1,예측 0,33580,returned,전체 유저,환경축 only,LightGBM
+실제 1,예측 1,52081,returned,전체 유저,환경축 only,LightGBM
+실제 0,예측 0,88780,paid,전체 유저,환경축 only,Baseline Logistic
+실제 0,예측 1,97374,paid,전체 유저,환경축 only,Baseline Logistic
+실제 1,예측 0,3135,paid,전체 유저,환경축 only,Baseline Logistic
+실제 1,예측 1,5270,paid,전체 유저,환경축 only,Baseline Logistic
+실제 0,예측 0,103386,paid,전체 유저,환경축 only,LightGBM
+실제 0,예측 1,82768,paid,전체 유저,환경축 only,LightGBM
+실제 1,예측 0,3422,paid,전체 유저,환경축 only,LightGBM
+실제 1,예측 1,4983,paid,전체 유저,환경축 only,LightGBM
+실제 0,예측 0,67645,returned,전체 유저,환경축 + 수신/발신축,Baseline Logistic
+실제 0,예측 1,41253,returned,전체 유저,환경축 + 수신/발신축,Baseline Logistic
+실제 1,예측 0,43997,returned,전체 유저,환경축 + 수신/발신축,Baseline Logistic
+실제 1,예측 1,41664,returned,전체 유저,환경축 + 수신/발신축,Baseline Logistic
+실제 0,예측 0,59318,returned,전체 유저,환경축 + 수신/발신축,LightGBM
+실제 0,예측 1,49580,returned,전체 유저,환경축 + 수신/발신축,LightGBM
+실제 1,예측 0,33377,returned,전체 유저,환경축 + 수신/발신축,LightGBM
+실제 1,예측 1,52284,returned,전체 유저,환경축 + 수신/발신축,LightGBM
+실제 0,예측 0,86571,paid,전체 유저,환경축 + 수신/발신축,Baseline Logistic
+실제 0,예측 1,99583,paid,전체 유저,환경축 + 수신/발신축,Baseline Logistic
+실제 1,예측 0,3001,paid,전체 유저,환경축 + 수신/발신축,Baseline Logistic
+실제 1,예측 1,5404,paid,전체 유저,환경축 + 수신/발신축,Baseline Logistic
+실제 0,예측 0,102974,paid,전체 유저,환경축 + 수신/발신축,LightGBM
+실제 0,예측 1,83180,paid,전체 유저,환경축 + 수신/발신축,LightGBM
+실제 1,예측 0,3425,paid,전체 유저,환경축 + 수신/발신축,LightGBM
+실제 1,예측 1,4980,paid,전체 유저,환경축 + 수신/발신축,LightGBM
+실제 0,예측 0,1159,returned,관계 경험자,환경축 only,Baseline Logistic
+실제 0,예측 1,995,returned,관계 경험자,환경축 only,Baseline Logistic
+실제 1,예측 0,570,returned,관계 경험자,환경축 only,Baseline Logistic
+실제 1,예측 1,570,returned,관계 경험자,환경축 only,Baseline Logistic
+실제 0,예측 0,1442,returned,관계 경험자,환경축 only,LightGBM
+실제 0,예측 1,712,returned,관계 경험자,환경축 only,LightGBM
+실제 1,예측 0,494,returned,관계 경험자,환경축 only,LightGBM
+실제 1,예측 1,646,returned,관계 경험자,환경축 only,LightGBM
+실제 0,예측 0,1766,paid,관계 경험자,환경축 only,Baseline Logistic
+실제 0,예측 1,1407,paid,관계 경험자,환경축 only,Baseline Logistic
+실제 1,예측 0,64,paid,관계 경험자,환경축 only,Baseline Logistic
+실제 1,예측 1,57,paid,관계 경험자,환경축 only,Baseline Logistic
+실제 0,예측 0,2686,paid,관계 경험자,환경축 only,LightGBM
+실제 0,예측 1,487,paid,관계 경험자,환경축 only,LightGBM
+실제 1,예측 0,104,paid,관계 경험자,환경축 only,LightGBM
+실제 1,예측 1,17,paid,관계 경험자,환경축 only,LightGBM
+실제 0,예측 0,1374,returned,관계 경험자,환경축 + 수신/발신축,Baseline Logistic
+실제 0,예측 1,780,returned,관계 경험자,환경축 + 수신/발신축,Baseline Logistic
+실제 1,예측 0,565,returned,관계 경험자,환경축 + 수신/발신축,Baseline Logistic
+실제 1,예측 1,575,returned,관계 경험자,환경축 + 수신/발신축,Baseline Logistic
+실제 0,예측 0,1494,returned,관계 경험자,환경축 + 수신/발신축,LightGBM
+실제 0,예측 1,660,returned,관계 경험자,환경축 + 수신/발신축,LightGBM
+실제 1,예측 0,499,returned,관계 경험자,환경축 + 수신/발신축,LightGBM
+실제 1,예측 1,641,returned,관계 경험자,환경축 + 수신/발신축,LightGBM
+실제 0,예측 0,1779,paid,관계 경험자,환경축 + 수신/발신축,Baseline Logistic
+실제 0,예측 1,1394,paid,관계 경험자,환경축 + 수신/발신축,Baseline Logistic
+실제 1,예측 0,55,paid,관계 경험자,환경축 + 수신/발신축,Baseline Logistic
+실제 1,예측 1,66,paid,관계 경험자,환경축 + 수신/발신축,Baseline Logistic
+실제 0,예측 0,2898,paid,관계 경험자,환경축 + 수신/발신축,LightGBM
+실제 0,예측 1,275,paid,관계 경험자,환경축 + 수신/발신축,LightGBM
+실제 1,예측 0,113,paid,관계 경험자,환경축 + 수신/발신축,LightGBM
+실제 1,예측 1,8,paid,관계 경험자,환경축 + 수신/발신축,LightGBM

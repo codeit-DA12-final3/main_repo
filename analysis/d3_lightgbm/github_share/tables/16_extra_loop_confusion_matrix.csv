@@ -1,0 +1,137 @@
+﻿actual,predicted,count,target_name,population,feature_set,model_type
+실제 0,예측 0,161981,relation_experience,전체 유저,관계망 환경축,Baseline Logistic
+실제 0,예측 1,29284,relation_experience,전체 유저,관계망 환경축,Baseline Logistic
+실제 1,예측 0,1027,relation_experience,전체 유저,관계망 환경축,Baseline Logistic
+실제 1,예측 1,2267,relation_experience,전체 유저,관계망 환경축,Baseline Logistic
+실제 0,예측 0,169269,relation_experience,전체 유저,관계망 환경축,LightGBM
+실제 0,예측 1,21996,relation_experience,전체 유저,관계망 환경축,LightGBM
+실제 1,예측 0,849,relation_experience,전체 유저,관계망 환경축,LightGBM
+실제 1,예측 1,2445,relation_experience,전체 유저,관계망 환경축,LightGBM
+실제 0,예측 0,1272,churn,관계 경험자,관계망 환경축,Baseline Logistic
+실제 0,예측 1,684,churn,관계 경험자,관계망 환경축,Baseline Logistic
+실제 1,예측 0,162,churn,관계 경험자,관계망 환경축,Baseline Logistic
+실제 1,예측 1,1176,churn,관계 경험자,관계망 환경축,Baseline Logistic
+실제 0,예측 0,1399,churn,관계 경험자,관계망 환경축,LightGBM
+실제 0,예측 1,557,churn,관계 경험자,관계망 환경축,LightGBM
+실제 1,예측 0,223,churn,관계 경험자,관계망 환경축,LightGBM
+실제 1,예측 1,1115,churn,관계 경험자,관계망 환경축,LightGBM
+실제 0,예측 0,1226,churn,관계 경험자,관계망 + 수신/발신축,Baseline Logistic
+실제 0,예측 1,730,churn,관계 경험자,관계망 + 수신/발신축,Baseline Logistic
+실제 1,예측 0,84,churn,관계 경험자,관계망 + 수신/발신축,Baseline Logistic
+실제 1,예측 1,1254,churn,관계 경험자,관계망 + 수신/발신축,Baseline Logistic
+실제 0,예측 0,1358,churn,관계 경험자,관계망 + 수신/발신축,LightGBM
+실제 0,예측 1,598,churn,관계 경험자,관계망 + 수신/발신축,LightGBM
+실제 1,예측 0,142,churn,관계 경험자,관계망 + 수신/발신축,LightGBM
+실제 1,예측 1,1196,churn,관계 경험자,관계망 + 수신/발신축,LightGBM
+실제 0,예측 0,1525,high_active,관계 경험자,관계망 환경축,Baseline Logistic
+실제 0,예측 1,382,high_active,관계 경험자,관계망 환경축,Baseline Logistic
+실제 1,예측 0,322,high_active,관계 경험자,관계망 환경축,Baseline Logistic
+실제 1,예측 1,1065,high_active,관계 경험자,관계망 환경축,Baseline Logistic
+실제 0,예측 0,1478,high_active,관계 경험자,관계망 환경축,LightGBM
+실제 0,예측 1,429,high_active,관계 경험자,관계망 환경축,LightGBM
+실제 1,예측 0,263,high_active,관계 경험자,관계망 환경축,LightGBM
+실제 1,예측 1,1124,high_active,관계 경험자,관계망 환경축,LightGBM
+실제 0,예측 0,1630,high_active,관계 경험자,관계망 + 수신/발신축,Baseline Logistic
+실제 0,예측 1,277,high_active,관계 경험자,관계망 + 수신/발신축,Baseline Logistic
+실제 1,예측 0,341,high_active,관계 경험자,관계망 + 수신/발신축,Baseline Logistic
+실제 1,예측 1,1046,high_active,관계 경험자,관계망 + 수신/발신축,Baseline Logistic
+실제 0,예측 0,1627,high_active,관계 경험자,관계망 + 수신/발신축,LightGBM
+실제 0,예측 1,280,high_active,관계 경험자,관계망 + 수신/발신축,LightGBM
+실제 1,예측 0,320,high_active,관계 경험자,관계망 + 수신/발신축,LightGBM
+실제 1,예측 1,1067,high_active,관계 경험자,관계망 + 수신/발신축,LightGBM
+실제 0,예측 0,88780,paid,전체 유저,A1_관계망,Baseline Logistic
+실제 0,예측 1,97374,paid,전체 유저,A1_관계망,Baseline Logistic
+실제 1,예측 0,3135,paid,전체 유저,A1_관계망,Baseline Logistic
+실제 1,예측 1,5270,paid,전체 유저,A1_관계망,Baseline Logistic
+실제 0,예측 0,103386,paid,전체 유저,A1_관계망,LightGBM
+실제 0,예측 1,82768,paid,전체 유저,A1_관계망,LightGBM
+실제 1,예측 0,3422,paid,전체 유저,A1_관계망,LightGBM
+실제 1,예측 1,4983,paid,전체 유저,A1_관계망,LightGBM
+실제 0,예측 0,86589,paid,전체 유저,A2_관계망_발신,Baseline Logistic
+실제 0,예측 1,99565,paid,전체 유저,A2_관계망_발신,Baseline Logistic
+실제 1,예측 0,3005,paid,전체 유저,A2_관계망_발신,Baseline Logistic
+실제 1,예측 1,5400,paid,전체 유저,A2_관계망_발신,Baseline Logistic
+실제 0,예측 0,103769,paid,전체 유저,A2_관계망_발신,LightGBM
+실제 0,예측 1,82385,paid,전체 유저,A2_관계망_발신,LightGBM
+실제 1,예측 0,3470,paid,전체 유저,A2_관계망_발신,LightGBM
+실제 1,예측 1,4935,paid,전체 유저,A2_관계망_발신,LightGBM
+실제 0,예측 0,86839,paid,전체 유저,A3_관계망_수신,Baseline Logistic
+실제 0,예측 1,99315,paid,전체 유저,A3_관계망_수신,Baseline Logistic
+실제 1,예측 0,3014,paid,전체 유저,A3_관계망_수신,Baseline Logistic
+실제 1,예측 1,5391,paid,전체 유저,A3_관계망_수신,Baseline Logistic
+실제 0,예측 0,103951,paid,전체 유저,A3_관계망_수신,LightGBM
+실제 0,예측 1,82203,paid,전체 유저,A3_관계망_수신,LightGBM
+실제 1,예측 0,3467,paid,전체 유저,A3_관계망_수신,LightGBM
+실제 1,예측 1,4938,paid,전체 유저,A3_관계망_수신,LightGBM
+실제 0,예측 0,86571,paid,전체 유저,A4_관계망_발신_수신,Baseline Logistic
+실제 0,예측 1,99583,paid,전체 유저,A4_관계망_발신_수신,Baseline Logistic
+실제 1,예측 0,3001,paid,전체 유저,A4_관계망_발신_수신,Baseline Logistic
+실제 1,예측 1,5404,paid,전체 유저,A4_관계망_발신_수신,Baseline Logistic
+실제 0,예측 0,103425,paid,전체 유저,A4_관계망_발신_수신,LightGBM
+실제 0,예측 1,82729,paid,전체 유저,A4_관계망_발신_수신,LightGBM
+실제 1,예측 0,3435,paid,전체 유저,A4_관계망_발신_수신,LightGBM
+실제 1,예측 1,4970,paid,전체 유저,A4_관계망_발신_수신,LightGBM
+실제 0,예측 0,3000,repeat_paid,결제 유저,B1_관계망,Baseline Logistic
+실제 0,예측 1,3369,repeat_paid,결제 유저,B1_관계망,Baseline Logistic
+실제 1,예측 0,849,repeat_paid,결제 유저,B1_관계망,Baseline Logistic
+실제 1,예측 1,1187,repeat_paid,결제 유저,B1_관계망,Baseline Logistic
+실제 0,예측 0,3698,repeat_paid,결제 유저,B1_관계망,LightGBM
+실제 0,예측 1,2671,repeat_paid,결제 유저,B1_관계망,LightGBM
+실제 1,예측 0,1128,repeat_paid,결제 유저,B1_관계망,LightGBM
+실제 1,예측 1,908,repeat_paid,결제 유저,B1_관계망,LightGBM
+실제 0,예측 0,2983,repeat_paid,결제 유저,B2_관계망_발신,Baseline Logistic
+실제 0,예측 1,3386,repeat_paid,결제 유저,B2_관계망_발신,Baseline Logistic
+실제 1,예측 0,849,repeat_paid,결제 유저,B2_관계망_발신,Baseline Logistic
+실제 1,예측 1,1187,repeat_paid,결제 유저,B2_관계망_발신,Baseline Logistic
+실제 0,예측 0,3678,repeat_paid,결제 유저,B2_관계망_발신,LightGBM
+실제 0,예측 1,2691,repeat_paid,결제 유저,B2_관계망_발신,LightGBM
+실제 1,예측 0,1108,repeat_paid,결제 유저,B2_관계망_발신,LightGBM
+실제 1,예측 1,928,repeat_paid,결제 유저,B2_관계망_발신,LightGBM
+실제 0,예측 0,2950,repeat_paid,결제 유저,B3_관계망_수신,Baseline Logistic
+실제 0,예측 1,3419,repeat_paid,결제 유저,B3_관계망_수신,Baseline Logistic
+실제 1,예측 0,841,repeat_paid,결제 유저,B3_관계망_수신,Baseline Logistic
+실제 1,예측 1,1195,repeat_paid,결제 유저,B3_관계망_수신,Baseline Logistic
+실제 0,예측 0,3709,repeat_paid,결제 유저,B3_관계망_수신,LightGBM
+실제 0,예측 1,2660,repeat_paid,결제 유저,B3_관계망_수신,LightGBM
+실제 1,예측 0,1132,repeat_paid,결제 유저,B3_관계망_수신,LightGBM
+실제 1,예측 1,904,repeat_paid,결제 유저,B3_관계망_수신,LightGBM
+실제 0,예측 0,2941,repeat_paid,결제 유저,B4_관계망_발신_수신,Baseline Logistic
+실제 0,예측 1,3428,repeat_paid,결제 유저,B4_관계망_발신_수신,Baseline Logistic
+실제 1,예측 0,832,repeat_paid,결제 유저,B4_관계망_발신_수신,Baseline Logistic
+실제 1,예측 1,1204,repeat_paid,결제 유저,B4_관계망_발신_수신,Baseline Logistic
+실제 0,예측 0,3663,repeat_paid,결제 유저,B4_관계망_발신_수신,LightGBM
+실제 0,예측 1,2706,repeat_paid,결제 유저,B4_관계망_발신_수신,LightGBM
+실제 1,예측 0,1126,repeat_paid,결제 유저,B4_관계망_발신_수신,LightGBM
+실제 1,예측 1,910,repeat_paid,결제 유저,B4_관계망_발신_수신,LightGBM
+실제 0,예측 0,3581,high_value_paid,결제 유저,B1_관계망,Baseline Logistic
+실제 0,예측 1,2399,high_value_paid,결제 유저,B1_관계망,Baseline Logistic
+실제 1,예측 0,1280,high_value_paid,결제 유저,B1_관계망,Baseline Logistic
+실제 1,예측 1,1145,high_value_paid,결제 유저,B1_관계망,Baseline Logistic
+실제 0,예측 0,3565,high_value_paid,결제 유저,B1_관계망,LightGBM
+실제 0,예측 1,2415,high_value_paid,결제 유저,B1_관계망,LightGBM
+실제 1,예측 0,1302,high_value_paid,결제 유저,B1_관계망,LightGBM
+실제 1,예측 1,1123,high_value_paid,결제 유저,B1_관계망,LightGBM
+실제 0,예측 0,3796,high_value_paid,결제 유저,B2_관계망_발신,Baseline Logistic
+실제 0,예측 1,2184,high_value_paid,결제 유저,B2_관계망_발신,Baseline Logistic
+실제 1,예측 0,1342,high_value_paid,결제 유저,B2_관계망_발신,Baseline Logistic
+실제 1,예측 1,1083,high_value_paid,결제 유저,B2_관계망_발신,Baseline Logistic
+실제 0,예측 0,3504,high_value_paid,결제 유저,B2_관계망_발신,LightGBM
+실제 0,예측 1,2476,high_value_paid,결제 유저,B2_관계망_발신,LightGBM
+실제 1,예측 0,1298,high_value_paid,결제 유저,B2_관계망_발신,LightGBM
+실제 1,예측 1,1127,high_value_paid,결제 유저,B2_관계망_발신,LightGBM
+실제 0,예측 0,3753,high_value_paid,결제 유저,B3_관계망_수신,Baseline Logistic
+실제 0,예측 1,2227,high_value_paid,결제 유저,B3_관계망_수신,Baseline Logistic
+실제 1,예측 0,1324,high_value_paid,결제 유저,B3_관계망_수신,Baseline Logistic
+실제 1,예측 1,1101,high_value_paid,결제 유저,B3_관계망_수신,Baseline Logistic
+실제 0,예측 0,3542,high_value_paid,결제 유저,B3_관계망_수신,LightGBM
+실제 0,예측 1,2438,high_value_paid,결제 유저,B3_관계망_수신,LightGBM
+실제 1,예측 0,1305,high_value_paid,결제 유저,B3_관계망_수신,LightGBM
+실제 1,예측 1,1120,high_value_paid,결제 유저,B3_관계망_수신,LightGBM
+실제 0,예측 0,3778,high_value_paid,결제 유저,B4_관계망_발신_수신,Baseline Logistic
+실제 0,예측 1,2202,high_value_paid,결제 유저,B4_관계망_발신_수신,Baseline Logistic
+실제 1,예측 0,1329,high_value_paid,결제 유저,B4_관계망_발신_수신,Baseline Logistic
+실제 1,예측 1,1096,high_value_paid,결제 유저,B4_관계망_발신_수신,Baseline Logistic
+실제 0,예측 0,3542,high_value_paid,결제 유저,B4_관계망_발신_수신,LightGBM
+실제 0,예측 1,2438,high_value_paid,결제 유저,B4_관계망_발신_수신,LightGBM
+실제 1,예측 0,1313,high_value_paid,결제 유저,B4_관계망_발신_수신,LightGBM
+실제 1,예측 1,1112,high_value_paid,결제 유저,B4_관계망_발신_수신,LightGBM
