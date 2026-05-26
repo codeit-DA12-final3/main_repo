@@ -1,7 +1,0 @@
-﻿item,decision,reason
-user_id,모델 입력에서 제외,식별자는 leakage와 과적합 위험이 있어 추적용으로만 사용합니다.
-결측치,추가 삭제 없음,"현재 mart_d3.csv 기준 주요 컬럼 결측은 없고, 모델 함수에서 숫자형 NaN은 0/median 경로로 처리됩니다."
-binary 컬럼,모델링 시 0/1로 변환,bool/string/numeric이 섞여도 to_binary_series와 ensure_numeric_frame에서 통일합니다.
-희소 행동 피처,삭제하지 않음,수신/발신 경험 자체가 희소한 신호이므로 0값이 많아도 관계 경험/활동 지속 모델에서 의미가 있습니다.
-극단값,LightGBM 모델에는 별도 winsorize 미적용,"트리 기반 모델은 스케일링이 필수는 아니며, 시각화에서는 log1p 분포와 zero_rate를 별도 확인합니다."
-returned_d4_28 vs active_days_d4_28,자동 보정하지 않음,두 컬럼은 재방문과 활동 지속성이라는 서로 다른 결과 지표일 수 있으므로 정의 확인 후 해석합니다.
