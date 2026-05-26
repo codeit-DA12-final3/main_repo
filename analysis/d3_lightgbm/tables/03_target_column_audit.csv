@@ -1,0 +1,6 @@
+﻿target_key,target_label,selected_column,available_candidates,preferred_window_available
+returned,재방문 여부,returned_d4_28,returned_d4_28,True
+paid,결제 여부,paid_d4_28,paid_d4_28,True
+payment_count,결제 횟수,payment_count_d4_28,payment_count_d4_28,True
+active_days,활동일수,active_days_d4_28,active_days_d4_28,True
+bought_hearts,구매 하트 수,bought_hearts_d4_28,bought_hearts_d4_28,True

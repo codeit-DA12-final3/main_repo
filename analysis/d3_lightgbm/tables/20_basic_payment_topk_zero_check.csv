@@ -1,0 +1,2 @@
+﻿top_k,top_k_rate,top_n,base_positive_rate,top_positive_rate,lift,captured_positive_count,capture_rate,target_name,target_col,population,feature_set,model_type
+Top 1%,0.01,33,0.03673345476624165,0.0,0.0,0,0.0,paid,paid_d4_28,관계 경험자,환경축 + 수신/발신축,LightGBM

@@ -1,0 +1,190 @@
+﻿feature,importance,feature_label,target_name,target_col,population,feature_set,model_type
+grade_users_d0_3,2733,D0-D3 같은 학년 유저 수,relation_experience,relation_experience_d0_3,전체 유저,관계망 환경축,LightGBM
+grade_active_users_d0_3,1705,D0-D3 같은 학년 활동 유저 수,relation_experience,relation_experience_d0_3,전체 유저,관계망 환경축,LightGBM
+friends_d3,1560,D3 친구 수,relation_experience,relation_experience_d0_3,전체 유저,관계망 환경축,LightGBM
+class_users_d0_3,1206,D0-D3 같은 반 유저 수,relation_experience,relation_experience_d0_3,전체 유저,관계망 환경축,LightGBM
+class_active_users_d0_3,296,D0-D3 같은 반 활동 유저 수,relation_experience,relation_experience_d0_3,전체 유저,관계망 환경축,LightGBM
+grade_users_d0_3,2312,D0-D3 같은 학년 유저 수,churn,churn_d4_plus,관계 경험자,관계망 환경축,LightGBM
+friends_d3,2074,D3 친구 수,churn,churn_d4_plus,관계 경험자,관계망 환경축,LightGBM
+grade_active_users_d0_3,1663,D0-D3 같은 학년 활동 유저 수,churn,churn_d4_plus,관계 경험자,관계망 환경축,LightGBM
+class_users_d0_3,907,D0-D3 같은 반 유저 수,churn,churn_d4_plus,관계 경험자,관계망 환경축,LightGBM
+class_active_users_d0_3,544,D0-D3 같은 반 활동 유저 수,churn,churn_d4_plus,관계 경험자,관계망 환경축,LightGBM
+grade_users_d0_3,1398,D0-D3 같은 학년 유저 수,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+friends_d3,1123,D3 친구 수,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+received_vote_count_d0_3,962,D0-D3 수신 Ping 수,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+grade_active_users_d0_3,875,D0-D3 같은 학년 활동 유저 수,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+class_users_d0_3,617,D0-D3 같은 반 유저 수,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+sent_vote_complete_rate_d0_3,439,D0-D3 발신 완료율,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+sent_vote_distinct_chosen_users_d0_3,370,D0-D3 선택 고유 유저 수,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+sent_vote_count_d0_3,339,D0-D3 발신 투표 수,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+class_active_users_d0_3,316,D0-D3 같은 반 활동 유저 수,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+sent_vote_complete_count_d0_3,229,D0-D3 완료 발신 수,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+point_use_after_received_vote_count_d0_3,202,수신 후 포인트 사용 횟수,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+sent_vote_distinct_questions_d0_3,196,D0-D3 고유 질문 수,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+sent_vote_active_days_d0_3,134,D0-D3 발신 활동일수,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+first_received_vote_day_d0_3,125,첫 수신 발생일,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+received_vote_days_d0_3,120,D0-D3 수신 발생일수,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+point_use_after_received_vote_yn_d0_3,51,수신 후 포인트 사용 여부,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+sent_vote_experience_d0_3,4,D0-D3 발신 경험 여부,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+received_vote_yn_d0_3,0,D0-D3 수신 경험 여부,churn,churn_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+grade_users_d0_3,2496,D0-D3 같은 학년 유저 수,high_active,high_active_d4_plus,관계 경험자,관계망 환경축,LightGBM
+friends_d3,2055,D3 친구 수,high_active,high_active_d4_plus,관계 경험자,관계망 환경축,LightGBM
+grade_active_users_d0_3,1384,D0-D3 같은 학년 활동 유저 수,high_active,high_active_d4_plus,관계 경험자,관계망 환경축,LightGBM
+class_users_d0_3,1048,D0-D3 같은 반 유저 수,high_active,high_active_d4_plus,관계 경험자,관계망 환경축,LightGBM
+class_active_users_d0_3,517,D0-D3 같은 반 활동 유저 수,high_active,high_active_d4_plus,관계 경험자,관계망 환경축,LightGBM
+grade_users_d0_3,1322,D0-D3 같은 학년 유저 수,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+friends_d3,994,D3 친구 수,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+grade_active_users_d0_3,906,D0-D3 같은 학년 활동 유저 수,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+received_vote_count_d0_3,891,D0-D3 수신 Ping 수,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+class_users_d0_3,570,D0-D3 같은 반 유저 수,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+sent_vote_complete_rate_d0_3,429,D0-D3 발신 완료율,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+sent_vote_distinct_chosen_users_d0_3,370,D0-D3 선택 고유 유저 수,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+sent_vote_complete_count_d0_3,369,D0-D3 완료 발신 수,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+sent_vote_count_d0_3,335,D0-D3 발신 투표 수,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+class_active_users_d0_3,304,D0-D3 같은 반 활동 유저 수,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+sent_vote_distinct_questions_d0_3,267,D0-D3 고유 질문 수,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+point_use_after_received_vote_count_d0_3,247,수신 후 포인트 사용 횟수,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+first_received_vote_day_d0_3,168,첫 수신 발생일,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+received_vote_days_d0_3,143,D0-D3 수신 발생일수,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+sent_vote_active_days_d0_3,140,D0-D3 발신 활동일수,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+point_use_after_received_vote_yn_d0_3,43,수신 후 포인트 사용 여부,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+sent_vote_experience_d0_3,2,D0-D3 발신 경험 여부,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+received_vote_yn_d0_3,0,D0-D3 수신 경험 여부,high_active,high_active_d4_plus,관계 경험자,관계망 + 수신/발신축,LightGBM
+grade_users_d0_3,2373,D0-D3 같은 학년 유저 수,paid,paid_d4_28,전체 유저,A1_관계망,LightGBM
+friends_d3,2086,D3 친구 수,paid,paid_d4_28,전체 유저,A1_관계망,LightGBM
+grade_active_users_d0_3,1278,D0-D3 같은 학년 활동 유저 수,paid,paid_d4_28,전체 유저,A1_관계망,LightGBM
+class_users_d0_3,1228,D0-D3 같은 반 유저 수,paid,paid_d4_28,전체 유저,A1_관계망,LightGBM
+class_active_users_d0_3,535,D0-D3 같은 반 활동 유저 수,paid,paid_d4_28,전체 유저,A1_관계망,LightGBM
+grade_users_d0_3,2128,D0-D3 같은 학년 유저 수,paid,paid_d4_28,전체 유저,A2_관계망_발신,LightGBM
+friends_d3,2035,D3 친구 수,paid,paid_d4_28,전체 유저,A2_관계망_발신,LightGBM
+grade_active_users_d0_3,1309,D0-D3 같은 학년 활동 유저 수,paid,paid_d4_28,전체 유저,A2_관계망_발신,LightGBM
+class_users_d0_3,1123,D0-D3 같은 반 유저 수,paid,paid_d4_28,전체 유저,A2_관계망_발신,LightGBM
+class_active_users_d0_3,519,D0-D3 같은 반 활동 유저 수,paid,paid_d4_28,전체 유저,A2_관계망_발신,LightGBM
+sent_vote_complete_rate_d0_3,113,D0-D3 발신 완료율,paid,paid_d4_28,전체 유저,A2_관계망_발신,LightGBM
+sent_vote_distinct_chosen_users_d0_3,79,D0-D3 선택 고유 유저 수,paid,paid_d4_28,전체 유저,A2_관계망_발신,LightGBM
+sent_vote_distinct_questions_d0_3,62,D0-D3 고유 질문 수,paid,paid_d4_28,전체 유저,A2_관계망_발신,LightGBM
+sent_vote_complete_count_d0_3,59,D0-D3 완료 발신 수,paid,paid_d4_28,전체 유저,A2_관계망_발신,LightGBM
+sent_vote_count_d0_3,57,D0-D3 발신 투표 수,paid,paid_d4_28,전체 유저,A2_관계망_발신,LightGBM
+sent_vote_active_days_d0_3,16,D0-D3 발신 활동일수,paid,paid_d4_28,전체 유저,A2_관계망_발신,LightGBM
+sent_vote_experience_d0_3,0,D0-D3 발신 경험 여부,paid,paid_d4_28,전체 유저,A2_관계망_발신,LightGBM
+grade_users_d0_3,2163,D0-D3 같은 학년 유저 수,paid,paid_d4_28,전체 유저,A3_관계망_수신,LightGBM
+friends_d3,1942,D3 친구 수,paid,paid_d4_28,전체 유저,A3_관계망_수신,LightGBM
+class_users_d0_3,1162,D0-D3 같은 반 유저 수,paid,paid_d4_28,전체 유저,A3_관계망_수신,LightGBM
+grade_active_users_d0_3,1102,D0-D3 같은 학년 활동 유저 수,paid,paid_d4_28,전체 유저,A3_관계망_수신,LightGBM
+class_active_users_d0_3,543,D0-D3 같은 반 활동 유저 수,paid,paid_d4_28,전체 유저,A3_관계망_수신,LightGBM
+received_vote_count_d0_3,286,D0-D3 수신 Ping 수,paid,paid_d4_28,전체 유저,A3_관계망_수신,LightGBM
+point_use_after_received_vote_count_d0_3,167,수신 후 포인트 사용 횟수,paid,paid_d4_28,전체 유저,A3_관계망_수신,LightGBM
+first_received_vote_day_d0_3,54,첫 수신 발생일,paid,paid_d4_28,전체 유저,A3_관계망_수신,LightGBM
+received_vote_days_d0_3,43,D0-D3 수신 발생일수,paid,paid_d4_28,전체 유저,A3_관계망_수신,LightGBM
+received_vote_yn_d0_3,26,D0-D3 수신 경험 여부,paid,paid_d4_28,전체 유저,A3_관계망_수신,LightGBM
+point_use_after_received_vote_yn_d0_3,12,수신 후 포인트 사용 여부,paid,paid_d4_28,전체 유저,A3_관계망_수신,LightGBM
+grade_users_d0_3,2020,D0-D3 같은 학년 유저 수,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+friends_d3,1901,D3 친구 수,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+grade_active_users_d0_3,1191,D0-D3 같은 학년 활동 유저 수,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+class_users_d0_3,1083,D0-D3 같은 반 유저 수,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+class_active_users_d0_3,464,D0-D3 같은 반 활동 유저 수,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+received_vote_count_d0_3,233,D0-D3 수신 Ping 수,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+sent_vote_complete_rate_d0_3,115,D0-D3 발신 완료율,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+point_use_after_received_vote_count_d0_3,94,수신 후 포인트 사용 횟수,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+sent_vote_count_d0_3,87,D0-D3 발신 투표 수,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+sent_vote_distinct_questions_d0_3,78,D0-D3 고유 질문 수,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+sent_vote_distinct_chosen_users_d0_3,68,D0-D3 선택 고유 유저 수,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+first_received_vote_day_d0_3,43,첫 수신 발생일,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+sent_vote_complete_count_d0_3,42,D0-D3 완료 발신 수,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+received_vote_yn_d0_3,29,D0-D3 수신 경험 여부,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+received_vote_days_d0_3,24,D0-D3 수신 발생일수,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+sent_vote_active_days_d0_3,20,D0-D3 발신 활동일수,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+point_use_after_received_vote_yn_d0_3,8,수신 후 포인트 사용 여부,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+sent_vote_experience_d0_3,0,D0-D3 발신 경험 여부,paid,paid_d4_28,전체 유저,A4_관계망_발신_수신,LightGBM
+grade_users_d0_3,2456,D0-D3 같은 학년 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B1_관계망,LightGBM
+friends_d3,2243,D3 친구 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B1_관계망,LightGBM
+grade_active_users_d0_3,1300,D0-D3 같은 학년 활동 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B1_관계망,LightGBM
+class_users_d0_3,1122,D0-D3 같은 반 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B1_관계망,LightGBM
+class_active_users_d0_3,379,D0-D3 같은 반 활동 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B1_관계망,LightGBM
+grade_users_d0_3,2457,D0-D3 같은 학년 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+friends_d3,2228,D3 친구 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+grade_active_users_d0_3,1281,D0-D3 같은 학년 활동 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+class_users_d0_3,1153,D0-D3 같은 반 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+class_active_users_d0_3,372,D0-D3 같은 반 활동 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+sent_vote_active_days_d0_3,8,D0-D3 발신 활동일수,repeat_paid,repeat_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+sent_vote_count_d0_3,1,D0-D3 발신 투표 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+sent_vote_experience_d0_3,0,D0-D3 발신 경험 여부,repeat_paid,repeat_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+sent_vote_complete_count_d0_3,0,D0-D3 완료 발신 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+sent_vote_distinct_chosen_users_d0_3,0,D0-D3 선택 고유 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+sent_vote_distinct_questions_d0_3,0,D0-D3 고유 질문 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+sent_vote_complete_rate_d0_3,0,D0-D3 발신 완료율,repeat_paid,repeat_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+grade_users_d0_3,2406,D0-D3 같은 학년 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+friends_d3,2158,D3 친구 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+class_users_d0_3,1211,D0-D3 같은 반 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+grade_active_users_d0_3,1192,D0-D3 같은 학년 활동 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+class_active_users_d0_3,382,D0-D3 같은 반 활동 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+received_vote_count_d0_3,93,D0-D3 수신 Ping 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+received_vote_days_d0_3,36,D0-D3 수신 발생일수,repeat_paid,repeat_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+first_received_vote_day_d0_3,15,첫 수신 발생일,repeat_paid,repeat_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+received_vote_yn_d0_3,5,D0-D3 수신 경험 여부,repeat_paid,repeat_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+point_use_after_received_vote_count_d0_3,2,수신 후 포인트 사용 횟수,repeat_paid,repeat_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+point_use_after_received_vote_yn_d0_3,0,수신 후 포인트 사용 여부,repeat_paid,repeat_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+grade_users_d0_3,2315,D0-D3 같은 학년 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+friends_d3,2226,D3 친구 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+grade_active_users_d0_3,1259,D0-D3 같은 학년 활동 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+class_users_d0_3,1190,D0-D3 같은 반 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+class_active_users_d0_3,370,D0-D3 같은 반 활동 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+received_vote_count_d0_3,86,D0-D3 수신 Ping 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+received_vote_days_d0_3,33,D0-D3 수신 발생일수,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+first_received_vote_day_d0_3,14,첫 수신 발생일,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+received_vote_yn_d0_3,7,D0-D3 수신 경험 여부,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+sent_vote_experience_d0_3,0,D0-D3 발신 경험 여부,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+sent_vote_distinct_chosen_users_d0_3,0,D0-D3 선택 고유 유저 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+sent_vote_active_days_d0_3,0,D0-D3 발신 활동일수,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+sent_vote_complete_count_d0_3,0,D0-D3 완료 발신 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+sent_vote_count_d0_3,0,D0-D3 발신 투표 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+sent_vote_distinct_questions_d0_3,0,D0-D3 고유 질문 수,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+sent_vote_complete_rate_d0_3,0,D0-D3 발신 완료율,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+point_use_after_received_vote_yn_d0_3,0,수신 후 포인트 사용 여부,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+point_use_after_received_vote_count_d0_3,0,수신 후 포인트 사용 횟수,repeat_paid,repeat_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+grade_users_d0_3,2397,D0-D3 같은 학년 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B1_관계망,LightGBM
+friends_d3,2282,D3 친구 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B1_관계망,LightGBM
+grade_active_users_d0_3,1266,D0-D3 같은 학년 활동 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B1_관계망,LightGBM
+class_users_d0_3,1214,D0-D3 같은 반 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B1_관계망,LightGBM
+class_active_users_d0_3,341,D0-D3 같은 반 활동 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B1_관계망,LightGBM
+grade_users_d0_3,2386,D0-D3 같은 학년 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+friends_d3,2325,D3 친구 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+class_users_d0_3,1216,D0-D3 같은 반 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+grade_active_users_d0_3,1189,D0-D3 같은 학년 활동 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+class_active_users_d0_3,367,D0-D3 같은 반 활동 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+sent_vote_experience_d0_3,11,D0-D3 발신 경험 여부,high_value_paid,high_value_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+sent_vote_complete_count_d0_3,6,D0-D3 완료 발신 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+sent_vote_count_d0_3,0,D0-D3 발신 투표 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+sent_vote_active_days_d0_3,0,D0-D3 발신 활동일수,high_value_paid,high_value_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+sent_vote_distinct_chosen_users_d0_3,0,D0-D3 선택 고유 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+sent_vote_distinct_questions_d0_3,0,D0-D3 고유 질문 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+sent_vote_complete_rate_d0_3,0,D0-D3 발신 완료율,high_value_paid,high_value_paid_d4_plus,결제 유저,B2_관계망_발신,LightGBM
+friends_d3,2298,D3 친구 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+grade_users_d0_3,2267,D0-D3 같은 학년 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+class_users_d0_3,1224,D0-D3 같은 반 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+grade_active_users_d0_3,1221,D0-D3 같은 학년 활동 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+class_active_users_d0_3,395,D0-D3 같은 반 활동 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+received_vote_count_d0_3,70,D0-D3 수신 Ping 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+received_vote_yn_d0_3,14,D0-D3 수신 경험 여부,high_value_paid,high_value_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+first_received_vote_day_d0_3,7,첫 수신 발생일,high_value_paid,high_value_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+received_vote_days_d0_3,4,D0-D3 수신 발생일수,high_value_paid,high_value_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+point_use_after_received_vote_yn_d0_3,0,수신 후 포인트 사용 여부,high_value_paid,high_value_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+point_use_after_received_vote_count_d0_3,0,수신 후 포인트 사용 횟수,high_value_paid,high_value_paid_d4_plus,결제 유저,B3_관계망_수신,LightGBM
+friends_d3,2357,D3 친구 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+grade_users_d0_3,2192,D0-D3 같은 학년 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+grade_active_users_d0_3,1239,D0-D3 같은 학년 활동 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+class_users_d0_3,1218,D0-D3 같은 반 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+class_active_users_d0_3,409,D0-D3 같은 반 활동 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+received_vote_count_d0_3,64,D0-D3 수신 Ping 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+first_received_vote_day_d0_3,10,첫 수신 발생일,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+received_vote_yn_d0_3,8,D0-D3 수신 경험 여부,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+received_vote_days_d0_3,3,D0-D3 수신 발생일수,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+sent_vote_experience_d0_3,0,D0-D3 발신 경험 여부,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+sent_vote_distinct_chosen_users_d0_3,0,D0-D3 선택 고유 유저 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+sent_vote_active_days_d0_3,0,D0-D3 발신 활동일수,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+sent_vote_complete_count_d0_3,0,D0-D3 완료 발신 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+sent_vote_count_d0_3,0,D0-D3 발신 투표 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+sent_vote_distinct_questions_d0_3,0,D0-D3 고유 질문 수,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+sent_vote_complete_rate_d0_3,0,D0-D3 발신 완료율,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+point_use_after_received_vote_yn_d0_3,0,수신 후 포인트 사용 여부,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
+point_use_after_received_vote_count_d0_3,0,수신 후 포인트 사용 횟수,high_value_paid,high_value_paid_d4_plus,결제 유저,B4_관계망_발신_수신,LightGBM
