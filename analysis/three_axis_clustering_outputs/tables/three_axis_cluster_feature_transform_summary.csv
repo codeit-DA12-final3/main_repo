@@ -18,7 +18,7 @@ pending_votes,미확인 Ping 수,p99 winsorize -> log1p -> StandardScaler,549.0
 sent_vote_complete_rate_d0_7,D0-D7 발신 완료율,clip 0-1 -> StandardScaler,0.0
 hackle_question_completion_rate_d0_7,D0-D7 Hackle 완료율,clip 0-1 -> StandardScaler,0.0
 received_vote_read_rate_d0_7,D0-D7 수신 열람률,clip 0-1 -> StandardScaler,0.7142857142857143
-candidate_to_recv_rate_d0_7,후보 노출 대비 선택률,clip 0-1 -> StandardScaler,0.25805959123368744
+candidate_to_recv_rate_d0_7,후보 노출 대비 선택률,clip 0-1 -> StandardScaler,0.2580595912336874
 sent_vote_complete_rate_d0_7,D0-D7 발신 완료율,clip 0-1 -> StandardScaler,0.0
 received_vote_read_rate_d0_7,D0-D7 수신 열람률,clip 0-1 -> StandardScaler,0.7142857142857143
 early_received_score_d0_7,초기 수신 빠름 점수,"clip 0-8 -> StandardScaler; 0 means no D0-D7 receipt, 8 means D0 receipt",8.0
